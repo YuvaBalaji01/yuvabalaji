@@ -1,0 +1,205 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    display: block;
+    justify-content: center;
+    background-color: rgb(16, 15, 15);
+    align-items: center;
+    margin: 0% 22% 0% 22%;
+    color: rgba(255, 255, 255, 0.512);
+    font-weight: 100;
+    font-size: large;
+    font-family: system-ui;
+   
+}
+
+  
+  .carousel-cell {
+    width: 66%;
+    height: px;
+    margin-right: 10px;
+    
+    border-radius: 5px;
+   
+  }
+  .im{
+      width: 100%;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+.profile{
+    width: 20%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 10px ;
+    margin-top: 20px;
+    
+}
+.im{
+    width: 100%;
+}
+.aboutme{
+    display: flex;
+}
+nav{
+   display: flex;
+   background-color: rgb(0, 0, 0); 
+   padding: 15px;
+   position: sticky;
+   top: 0px;
+   z-index: 100;
+  
+}
+.alinr{
+    margin-left: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left:10px ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    transition: font-size 0.7s;
+}
+nav a:hover{
+    font-size: 20px;
+   
+}
+.certificate{
+    margin-left: 0px;
+}
+.certificate:hover{
+    font-size: 20px;
+    color: white;
+}
+
+.info{
+    margin: 10px 10px 25px 10px;
+    border-left:1px solid rgba(0, 0, 0, 0.325) ;
+    padding-left: 2px;
+    color: rgba(255, 255, 255, 0.512);
+
+}
+h1,h2{
+    color: white;
+}
+.skils{
+    display: flex;
+}
+.it1{
+    padding: 4px;
+    border: 1px solid gray;
+    margin: 3px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.452);
+}
+.it2{
+    padding: 4px;
+    border: 1px solid gray;
+    margin: 3px 3px 3px 3px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.452);
+}
+.it3{
+    
+    padding: 4px;
+    border: 1px solid gray;
+    margin: 3px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.452);
+}
+.it4{
+    
+    padding: 4px;
+    border: 1px solid gray;
+    margin: 3px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.452);
+}
+footer{
+    background-color: black;
+    padding: 10px;
+}
+p{
+    padding: 3px;
+}
+.project{
+    margin: 4px;
+   
+}
+.p1{
+    
+    margin: 2px;
+}
+.p2{
+    margin: 2px;
+}
+.p3{
+    margin: 2px;
+}
+.grad{
+   width: auto;
+   height: 1px;
+   background: rgb(63,94,251);
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 80%);  
+   margin-bottom: 5px; 
+}
+
+.submit{
+    background-color: rgb(55, 61, 65);
+    padding: 6px 20px 6px 20px;
+    font-family: cursive;
+    font-size: large;
+    color: rgb(248, 245, 245);
+    border: none;
+    border-radius: 3px;
+    
+}
+.submit:hover{
+    
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.it:hover{
+    background: rgb(166,174,214);
+background: radial-gradient(circle, rgba(166,174,214,1) 0%, rgba(204,142,129,1) 84%);
+   color: white;
+}
+.footer{
+    transition: font-size 0.7s;
+    margin-right: 20px;
+   
+}
+.footer:hover{
+    font-size: 30px;
+}
+@media all and (max-width:650px) {
+    body{
+        margin: 0%;
+    }
+    .aboutme{
+        display: block;
+    }
+    .skils{
+        display: block;
+    }
+    .profile{
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+@media all and (max-width:800px) and (min-width:650px) {
+    body{
+        margin: 0px 0px 0px 3px;
+    }
+}
