@@ -133,10 +133,8 @@ nav a:hover {
 }
 
 /* SKILLS GRID STYLES (Skill Badges) */
-.Skill{
-    
 
-}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); 
