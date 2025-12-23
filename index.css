@@ -136,13 +136,12 @@ nav a:hover {
 
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); 
-    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* CENTER ALL ITEMS */
+    gap: 20px;
     padding: 30px 0;
-    justify-items: center;
 }
-
 .skill-card {
     background-color: #FFFFFF; 
     border: 1px solid #EAEAEA;
@@ -153,6 +152,7 @@ nav a:hover {
     transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
     width: 80px; 
     height: auto;
+    align-items: center; 
 }
 
 .skill-card:hover {
